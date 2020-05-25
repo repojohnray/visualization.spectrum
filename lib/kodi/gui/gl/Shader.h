@@ -40,7 +40,7 @@ namespace kodi
 
         bool LoadSource(const std::string& file)
         {
-          char buffer[16384];
+          char buffer[16384] = { 0 };
 
           kodi::vfs::CFile source;
           if (!source.OpenFile(file))

@@ -150,6 +150,7 @@ bool CVisualizationSpectrum::Start(int channels, int samplesPerSec, int bitsPerS
     for(y = 0; y < 16; y++)
     {
       m_cHeights[y][x] = 0.0;
+      m_heights[y][x] = 0.0;
     }
   }
 
